@@ -2,21 +2,16 @@
 Setting up a new Macbook
 
 MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)
+
 2.4 GHz Intel Core i5
+
 16 GB 2133 MHz LPDDR3
+
 500 GB
 
 ## Chrome
 
 Replace Safari with Chrome and set as default browser.
-
-## Homebrew
-
-Install homebrew to enable us to installsome useful tools:
-
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
 
 ## Git
 
@@ -79,24 +74,65 @@ And then install the plug ins from within the .vimrc file in Vim by typing:
 :PlugInstall
 ```
 
-## Poppler
+## Homebrew
+
+Install homebrew to enable us to install some useful tools:
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+### Poppler
 
 For PDF tools:
 
 ```brew install poppler```
 
+### Pandoc
+
+To convert document formats:
+
+```brew install pandoc```
 
 ## LaTeX
 
+Download and install MacTeX:
+
+http://www.tug.org/mactex/mactex-download.html
+
+(pdflatex will only be recognised after quiting and restarting terminal.)
+
+And Texpad:
+
+https://www.texpad.com/osx
+
 ## R and R Studio
 
+Download and install R:
 
+https://cran.r-project.org/
 
-## GUI programmes
+Important: this release uses Clang 7.0.0 and GNU Fortran 6.1, neither of which is supplied by Apple. If you wish to compile R packages from sources, you will need to download and install those tools - see the tools directory.
 
-### Acorn
+Enter R via the terminal as superuser:
+
+```sudo R```
+
+Let's install the packages we need in one command:
+
+```install.packages(c("ggplot2","tidyverse","knitr","ggthemes","scales","ggmap","plotly","ggfortify","leaflet","leaflet.extras","rgdal","forecast","treemapify","dbscan","survival","googleVis","rmarkdown","flexdashboard","highcharter","devtools","maptools","mapview","treemap","networkD3","visNetwork","DiagrammeR","DT","ggcorrplot"))```
+
+This will take a while.
+
+```q()``` to exit R
+
+Download and install R Studio:
+
+https://rstudio.com/products/rstudio/download/
+
+## Acorn
 Nice graphics editor:
 https://flyingmeat.com/acorn/
 
-
-
+## Sublime Text
+https://www.sublimetext.com/

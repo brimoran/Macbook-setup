@@ -110,6 +110,8 @@ And Fira Sans:
 
 https://fonts.google.com/specimen/Fira+Sans
 
+(Not sure if this was necessary.)
+
 ## R and R Studio
 
 Download and install R:

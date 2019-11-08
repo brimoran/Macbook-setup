@@ -104,7 +104,11 @@ http://www.tug.org/mactex/mactex-download.html
 
 And Texpad:
 
-https://www.texpad.com/osx
+https://www.texpad.com/osx 
+
+And Fira Sans:
+
+https://fonts.google.com/specimen/Fira+Sans
 
 ## R and R Studio
 

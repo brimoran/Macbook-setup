@@ -112,6 +112,10 @@ https://fonts.google.com/specimen/Fira+Sans
 
 (Not sure if this was necessary.)
 
+And Tex Gyre Heros:
+
+https://www.fontsquirrel.com/fonts/tex-gyre-heros
+
 ## R and R Studio
 
 Download and install R:
@@ -142,3 +146,5 @@ https://flyingmeat.com/acorn/
 
 ## Sublime Text
 https://www.sublimetext.com/
+
+

@@ -11,7 +11,7 @@ MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)
 
 ## Chrome
 
-Replace Safari with Chrome and set as default browser.
+Download Chrome, launch it and set as default browser.
 
 ## Git
 
@@ -130,7 +130,7 @@ I use Ghostscript to shrink PDF files:
 
 ### Poppler
 
-For PDF tools:
+For PDF tools such as pdftotext:
 
 ```brew install poppler```
 
@@ -140,14 +140,17 @@ To convert document formats:
 
 ```brew install pandoc```
 
+### XQuartz
+
+Replace X11 with Xquartz to resolve some issues that I ran into with the installation of some R packages.
+
+```brew cask install xquartz```
 
 ## R and R Studio
 
 Download and install R:
 
 https://cran.r-project.org/
-
-Important: this release uses Clang 7.0.0 and GNU Fortran 6.1, neither of which is supplied by Apple. If you wish to compile R packages from sources, you will need to download and install those tools - see the tools directory.
 
 Enter R via the terminal as superuser:
 
@@ -166,8 +169,29 @@ Download and install R Studio:
 https://rstudio.com/products/rstudio/download/
 
 ## Acorn
+
 Nice graphics editor:
+
 https://flyingmeat.com/acorn/
 
 ## Sublime Text
+
 https://www.sublimetext.com/
+
+## Keynote
+
+Download from App Store.
+
+## Microsoft Office
+
+https://account.microsoft.com/services/office/install
+
+## Additional Fonts
+
+Fira Sans - download and batch install by dragging in Font Book:
+
+https://fonts.google.com/specimen/Fira+Sans?selection.family=Fira+Sans
+
+Tex Gyre Heroes - download and batch install by dragging in Font Book:
+
+https://www.fontsquirrel.com/fonts/tex-gyre-heros

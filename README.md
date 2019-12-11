@@ -188,10 +188,10 @@ https://account.microsoft.com/services/office/install
 
 ## Additional Fonts
 
-Fira Sans - download and batch install by dragging in Font Book:
+Fira Sans - download and batch install by unpacking, and selecting all files with Finder and dragging into Font Book:
 
 https://fonts.google.com/specimen/Fira+Sans?selection.family=Fira+Sans
 
-Tex Gyre Heroes - download and batch install by dragging in Font Book:
+Tex Gyre Heroes - download and batch install by unpacking, and selecting all files with Finder and dragging into Font Book:
 
 https://www.fontsquirrel.com/fonts/tex-gyre-heros

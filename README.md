@@ -15,7 +15,7 @@ Replace Safari with Chrome and set as default browser.
 
 ## Git
 
-Fire up Terminal.
+Launch the Terminal.
 
 Set up git config:
 
@@ -108,32 +108,25 @@ Using homebrew for the install as otherwise the MacTex installation of ghostscri
 
 ```brew cask install basictex```
 
-Then add specific LaTeX packages with ```tlmgr```, e.g.:
+Note this is Basic Tex.  Then add path to bashrc:
 
-```tlmgr install subfiles isodate substr enumitem datatool xfor fp pdfpages csquotes microtype hyphenat xcolor fancyhdr lastpage fira mweights fontaxes wrapfig capt-of mdframed needspace tcolorbox pgf environ trimspaces titlesec titlecaps ifnextok floatrow placeins adjustbox collectbox lcg relsize lineno pgfplots xltxtra float tabulary lipsum marginnote import l3backend l3kernel pagecolor```
+```PATH=/usr/local/texlive/2019basic/bin/x86_64-darwin:"${PATH}"```
 
-Alternatively:
+Update tlmgr:
 
-Download and install MacTeX:
+```
+sudo tlmgr update --self
+```
 
-http://www.tug.org/mactex/mactex-download.html
+Then add specific LaTeX packages as required with ```tlmgr```, e.g.:
 
-(pdflatex will only be recognised after quiting and restarting terminal.)
+```sudo tlmgr install subfiles isodate substr enumitem datatool xfor fp pdfpages csquotes microtype hyphenat xcolor fancyhdr lastpage fira mweights fontaxes wrapfig capt-of mdframed needspace tcolorbox pgf environ trimspaces titlesec titlecaps ifnextok floatrow placeins adjustbox collectbox lcg relsize lineno pgfplots xltxtra float tabulary lipsum marginnote import l3backend l3kernel pagecolor titling```
 
-And Texpad:
+### Ghostscript
 
-https://www.texpad.com/osx 
+I use Ghostscript to shrink PDF files:
 
-And Fira Sans:
-
-https://fonts.google.com/specimen/Fira+Sans
-
-(Not sure if this was necessary.)
-
-And Tex Gyre Heros:
-
-https://www.fontsquirrel.com/fonts/tex-gyre-heros
-
+```brew install ghostscript```
 
 ### Poppler
 
@@ -178,5 +171,3 @@ https://flyingmeat.com/acorn/
 
 ## Sublime Text
 https://www.sublimetext.com/
-
-

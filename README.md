@@ -15,12 +15,15 @@ Replace Safari with Chrome and set as default browser.
 
 ## Git
 
+Fire up Terminal.
+
 Set up git config:
 
-```
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
-```
+```git config --global user.name "John Doe"```
+
+If they aren't already installed you'll be prompted now to install Command Line Tools.
+
+```git config --global user.email johndoe@example.com```
 
 Confirm:
 
@@ -35,13 +38,19 @@ ls -al ~/.ssh
 # Lists the files in your .ssh directory, if they exist
 ```
 
+If none exist:
+
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
 Show contents of public SSH key to copy to add to web git service:
 
 ```
 cat ~/.ssh/id_rsa.pub
 ```
 
-Add SSH key to webservice and then clone repo using SSH in the area you want it on your computer:
+Add SSH key to webservice and then clone repo using SSH in the area you want it on your computer (for example create a Version Controlled folder in your home directory):
 
 e.g. with Gitlab
 
@@ -49,11 +58,30 @@ e.g. with Gitlab
 git clone git@gitlab.com:YOURGITUSERNAME/YOURREPO.git
 
 ```
+
+## Homebrew
+
+Install homebrew as a package manager:
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 ## Vim
 
-Default Vim is version 8.0.1365, let's run with that for now.
+Default Vim is version 8.1.1312, update with:
 
-Let's install VimPlug:
+```
+brew install vim
+```
+
+Add alias to ```~/.bashrc``` file so homebrew version loads instead of system version:
+
+```
+alias vim=/usr/local/bin/vim
+```
+
+Then let's install VimPlug:
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
@@ -62,7 +90,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 Then copy .vimrc which I store in a git repository to home folder:
 
-e.g.
+e.g. navigate to folder and then
 
 ```
 cp .vimrc ~/
@@ -74,31 +102,15 @@ And then install the plug ins from within the .vimrc file in Vim by typing:
 :PlugInstall
 ```
 
-## Homebrew
-
-Install homebrew:
-
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-### Poppler
-
-For PDF tools:
-
-```brew install poppler```
-
-### Pandoc
-
-To convert document formats:
-
-```brew install pandoc```
-
 ## LaTeX
 
-Using brew for this as otherwise the MacTex installation of ghostscript conflicts with homebrew.  (Ghostscript is useful to shrink pdf files.)
+Using homebrew for the install as otherwise the MacTex installation of ghostscript conflicts with homebrew.  (Ghostscript is useful to shrink pdf files.)
 
-```brew cask install mactex```
+```brew cask install basictex```
+
+Then add specific LaTeX packages with ```tlmgr```, e.g.:
+
+```tlmgr install subfiles isodate substr enumitem datatool xfor fp pdfpages csquotes microtype hyphenat xcolor fancyhdr lastpage fira mweights fontaxes wrapfig capt-of mdframed needspace tcolorbox pgf environ trimspaces titlesec titlecaps ifnextok floatrow placeins adjustbox collectbox lcg relsize lineno pgfplots xltxtra float tabulary lipsum marginnote import l3backend l3kernel pagecolor```
 
 Alternatively:
 
@@ -121,6 +133,20 @@ https://fonts.google.com/specimen/Fira+Sans
 And Tex Gyre Heros:
 
 https://www.fontsquirrel.com/fonts/tex-gyre-heros
+
+
+### Poppler
+
+For PDF tools:
+
+```brew install poppler```
+
+### Pandoc
+
+To convert document formats:
+
+```brew install pandoc```
+
 
 ## R and R Studio
 

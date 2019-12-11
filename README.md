@@ -76,7 +76,7 @@ And then install the plug ins from within the .vimrc file in Vim by typing:
 
 ## Homebrew
 
-Install homebrew to enable us to install some useful tools:
+Install homebrew:
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -95,6 +95,12 @@ To convert document formats:
 ```brew install pandoc```
 
 ## LaTeX
+
+Using brew for this as otherwise the MacTex installation of ghostscript conflicts with homebrew.  (Ghostscript is useful to shrink pdf files.)
+
+```brew cask install mactex```
+
+Alternatively:
 
 Download and install MacTeX:
 

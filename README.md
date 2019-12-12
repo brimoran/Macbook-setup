@@ -104,7 +104,7 @@ And then install the plug ins from within the .vimrc file in Vim by typing:
 
 ## LaTeX
 
-Using homebrew for the install as otherwise the MacTex installation of ghostscript conflicts with homebrew.  (Ghostscript is useful to shrink pdf files.)
+Using homebrew for the install as otherwise the MacTex installation of ghostscript can conflict with other homebrew packages.  (Ghostscript is useful to shrink pdf files.)
 
 ```brew cask install basictex```
 

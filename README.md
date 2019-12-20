@@ -168,6 +168,12 @@ Download and install R Studio:
 
 https://rstudio.com/products/rstudio/download/
 
+## Python 3 packages
+
+Python 3 will have been installed as a dependancy at some point.  Add additional packages using ```pip install```:
+
+```pip3 install pandas numpy matplotlib sklearn quandl```
+
 ## Acorn
 
 Nice graphics editor:

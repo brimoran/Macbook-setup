@@ -174,6 +174,12 @@ Python 3 will have been installed as a dependancy at some point.  Add additional
 
 ```pip3 install pandas numpy matplotlib sklearn quandl```
 
+## xlsx2csv
+
+Useful tool to convert excel files into csv files with for example ```xlsx2csv -s 0 in.xlsx output```:
+
+```sudo easy_install xlsx2csv```
+
 ## Acorn
 
 Nice graphics editor:

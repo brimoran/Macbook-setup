@@ -172,13 +172,9 @@ https://rstudio.com/products/rstudio/download/
 
 Python 3 will have been installed as a dependancy at some point.  Add additional packages using ```pip install```:
 
-```pip3 install pandas numpy matplotlib sklearn quandl```
+```pip3 install pandas numpy matplotlib sklearn quandl xlsx2csv```
 
-## xlsx2csv
-
-Useful tool to convert excel files into csv files with for example ```xlsx2csv -s 0 in.xlsx output```:
-
-```sudo easy_install xlsx2csv```
+(xlsx2csv is a useful tool to convert excel files into csv files with for example ```xlsx2csv -s 0 in.xlsx output```)
 
 ## Acorn
 

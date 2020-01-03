@@ -176,6 +176,12 @@ Python 3 will have been installed as a dependancy at some point.  Add additional
 
 (xlsx2csv is a useful tool to convert excel files into csv files with for example ```xlsx2csv -s 0 in.xlsx output```)
 
+## Java
+
+Necessary for some utilities (e.g. datatooltk which speeds up the handling of data in LaTeX).
+
+https://www.java.com/en/download/mac_download.jsp
+
 ## Acorn
 
 Nice graphics editor:

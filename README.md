@@ -178,9 +178,27 @@ Python 3 will have been installed as a dependancy at some point.  Add additional
 
 ## Java
 
-Necessary for some utilities (e.g. datatooltk which speeds up the handling of data in LaTeX).
+Necessary for some utilities.
+
+Download and install the runtime environment:
 
 https://www.java.com/en/download/mac_download.jsp
+
+And also the development kit:
+
+https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html
+
+### datatooltk
+
+Speeds up the handling of data in LaTeX.
+
+Download from:
+
+https://ctan.org/pkg/datatooltk
+
+Install with:
+
+```sudo java -jar datatooltk-installer.jar```
 
 ## Acorn
 

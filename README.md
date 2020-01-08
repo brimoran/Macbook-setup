@@ -200,6 +200,12 @@ Install with:
 
 ```sudo java -jar datatooltk-installer.jar```
 
+### EPS2PGF
+
+Download from:
+
+https://sourceforge.net/projects/eps2pgf/files/latest/download
+
 ## Acorn
 
 Nice graphics editor:

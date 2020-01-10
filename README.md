@@ -162,6 +162,10 @@ Let's install the packages we need in one command:
 
 This will take a while.
 
+After it complete to enable mapshot to work:
+
+```webshot::install_phantomjs()```
+
 ```q()``` to exit R
 
 Download and install R Studio:

@@ -140,6 +140,12 @@ To convert document formats:
 
 ```brew install pandoc```
 
+###
+
+To show diffs in LaTeX:
+
+```brew install latexdiff```
+
 ### XQuartz
 
 Replace X11 with Xquartz to resolve some issues that I ran into with the installation of some R packages.

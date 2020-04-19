@@ -146,6 +146,12 @@ To show diffs in LaTeX:
 
 ```brew install latexdiff```
 
+###
+
+For flexible tools to rename file in BASH:
+
+```brew install rename```
+
 ### XQuartz
 
 Replace X11 with Xquartz to resolve some issues that I ran into with the installation of some R packages.

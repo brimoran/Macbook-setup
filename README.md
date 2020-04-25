@@ -69,7 +69,7 @@ Install homebrew as a package manager:
 
 ## BASH
 
-Default is version, update with:
+Default is version 3.2.57(1)-release over 10 years old, update with:
 
 ```brew install bash```
 

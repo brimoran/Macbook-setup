@@ -75,9 +75,7 @@ Default is version, update with:
 
 Verify installation (should see install in ```/usr/local/bin/bash```):
 
-```
-which -a bash
-```
+```which -a bash```
 
 Whitelist new shell:
 

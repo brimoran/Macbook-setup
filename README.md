@@ -67,6 +67,30 @@ Install homebrew as a package manager:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+## BASH
+
+Default is version, update with:
+
+```brew install bash```
+
+Verify installation (should see install in ```/usr/local/bin/bash```):
+
+```
+which -a bash
+```
+
+Whitelist new shell:
+
+```sudo vim /etc/shells``` and add ```/usr/local/bin/bash``` to the file
+
+Set as default shell:
+
+```chsh -s /usr/local/bin/bash```
+
+Change for root user:
+
+```sudo chsh -s /usr/local/bin/bash```
+
 ## Vim
 
 Default Vim is version 8.1.1312, update with:

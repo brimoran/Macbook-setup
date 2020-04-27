@@ -126,6 +126,12 @@ And then install the plug ins from within the .vimrc file in Vim by typing:
 
 ## LaTeX
 
+Notes below left for posterity but I've since given up on this approach as it was difficult to update, so instead head to:
+
+https://www.tug.org/mactex/mactex-download.html
+
+and download and install MacTeX.
+
 Using homebrew for the install as otherwise the MacTex installation of ghostscript can conflict with other homebrew packages.  (Ghostscript is useful to shrink pdf files.)
 
 ```brew cask install basictex```

@@ -126,7 +126,7 @@ And then install the plug ins from within the .vimrc file in Vim by typing:
 
 ## LaTeX
 
-Notes below left for posterity but I've since given up on this approach as it was difficult to update, so instead head to:
+MacTex 2020 comes with ghostscript 9.5 so this will be fine.  Notes below left for posterity but I've since given up on this approach as it was difficult to update individual packages if a new version of LaTeX was released, so instead head to:
 
 https://www.tug.org/mactex/mactex-download.html
 
@@ -151,6 +151,8 @@ Then add specific LaTeX packages as required with ```tlmgr```, e.g.:
 ```sudo tlmgr install subfiles isodate substr enumitem datatool xfor fp pdfpages csquotes microtype hyphenat xcolor fancyhdr lastpage fira mweights fontaxes wrapfig capt-of mdframed needspace tcolorbox pgf environ trimspaces titlesec titlecaps ifnextok floatrow placeins adjustbox collectbox lcg relsize lineno pgfplots xltxtra float tabulary lipsum marginnote import l3backend l3kernel pagecolor titling footmisc rotating```
 
 ### Ghostscript
+
+This is not needed now as it comes with MacTeX.
 
 I use Ghostscript to shrink PDF files:
 

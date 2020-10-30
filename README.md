@@ -188,6 +188,13 @@ Replace X11 with Xquartz to resolve some issues that I ran into with the install
 
 ```brew cask install xquartz```
 
+
+### Mosh
+
+For more persistent remote terminal access.
+
+```brew install mosh```
+
 ## R and R Studio
 
 Download and install R:

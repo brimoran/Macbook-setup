@@ -223,9 +223,9 @@ https://rstudio.com/products/rstudio/download/
 
 ## Python 3 packages
 
-Python 3 will have been installed as a dependancy at some point.  Add additional packages using ```pip install```:
+Python 3 will have been installed as a dependancy at some point.  Add additional packages using ```pip3 install```:
 
-```pip3 install pandas numpy matplotlib sklearn quandl xlsx2csv```
+```pip3 install pandas numpy matplotlib sklearn quandl xlsx2csv boto3```
 
 (xlsx2csv is a useful tool to convert excel files into csv files with for example ```xlsx2csv -s 0 in.xlsx output```)
 

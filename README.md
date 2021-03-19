@@ -172,7 +172,7 @@ To convert document formats:
 
 ### OCRmyPDF
 
-To OCR PDFs example: ```ocrmypdf -l eng --force-ocr input.pdf output.pdf```
+To OCR PDFs example: ```ocrmypdf -l eng input.pdf output.pdf```
 
 ```brew install ocrmypdf```
 

@@ -170,6 +170,12 @@ To convert document formats:
 
 ```brew install pandoc```
 
+### OCRmyPDF
+
+To OCR PDFs example: ```ocrmypdf -l eng --force-ocr input.pdf output.pdf```
+
+```brew install ocrmypdf```
+
 ###
 
 To show diffs in LaTeX:

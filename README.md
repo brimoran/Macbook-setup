@@ -13,7 +13,7 @@ MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)
 
 Download Chrome, launch it and set as default browser.
 
-## Git
+## Git and SSH keys
 
 Launch the Terminal.
 
@@ -59,6 +59,10 @@ git clone git@gitlab.com:YOURGITUSERNAME/YOURREPO.git
 
 ```
 
+Add public key to any servers you need to access:
+
+``ssh-copy-id -i ~/.ssh/id_rsa.pub YOUR_USER_NAME@IP_ADDRESS_OF_THE_SERVER``
+
 ## Homebrew
 
 Install homebrew as a package manager:
@@ -88,6 +92,14 @@ Set as default shell:
 Change for root user:
 
 ```sudo chsh -s /usr/local/bin/bash```
+
+Add some aliases to short cut commands, e.g.:
+
+``vim .bash_profile``
+
+and add:
+
+``alias work='ssh YOURUSERNAME@SERVERIPADDRESS'``
 
 ## Vim
 

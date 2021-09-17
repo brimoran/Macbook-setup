@@ -239,13 +239,37 @@ Download and install R Studio:
 
 https://rstudio.com/products/rstudio/download/
 
-## Python 3 packages
+~~## Python 3 packages
 
-Python 3 will have been installed as a dependancy at some point.  Add additional packages using ```pip3 install```:
+~~Python 3 will have been installed as a dependancy at some point.  Add additional packages using ```pip3 install```:
 
-```pip3 install pandas numpy matplotlib sklearn quandl xlsx2csv boto3```
+~~```pip3 install pandas numpy matplotlib sklearn quandl xlsx2csv boto3```
 
-(xlsx2csv is a useful tool to convert excel files into csv files with for example ```xlsx2csv -s 0 in.xlsx output```)
+~~(xlsx2csv is a useful tool to convert excel files into csv files with for example ```xlsx2csv -s 0 in.xlsx output```)~~
+
+Now think it is better to install python through brew as ended up with two versions of Python 3 - one 3.7 and one 3.9.
+
+Ended up making sure that ``python`` and ``pip`` call most up to date versions by:
+
+``export PATH=/usr/local/opt/python/libexec/bin:$PATH``
+
+See: https://stackoverflow.com/questions/51885394/brew-install-doesnt-link-python3
+
+and installing again:
+
+``pip install six``
+
+and
+
+``pip install openpyxl``
+
+and fixing ghostscript by:
+
+``sudo chown -R `whoami` /usr/local/share/doc/ghostscript``
+
+``brew link --overwrite ghostscript``
+
+See: https://stackoverflow.com/questions/25695934/ghostscript-not-writable
 
 ## Java
 

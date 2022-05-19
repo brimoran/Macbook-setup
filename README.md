@@ -239,6 +239,11 @@ Download and install R Studio:
 
 https://rstudio.com/products/rstudio/download/
 
+### Google API key for ggmap
+
+```register_google(key = "[your key]", write = TRUE)```
+
+
 ## Python 3 ~~packages~~
 
 ~~Python 3 will have been installed as a dependancy at some point.  Add additional packages using ```pip3 install```~~

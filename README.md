@@ -213,6 +213,12 @@ For more persistent remote terminal access.
 
 ```brew install mosh```
 
+### Git Large File Storage
+
+To use git with large files (see https://git-lfs.github.com/)
+
+```brew install git-lfs```
+
 ## R and R Studio
 
 Download and install R:

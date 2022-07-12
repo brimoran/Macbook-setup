@@ -237,7 +237,7 @@ Enter R via the terminal as superuser:
 
 Let's install the packages we need in one command:
 
-```install.packages(c("ggplot2","tidyverse","knitr","ggthemes","scales","ggmap","plotly","ggfortify","leaflet","leaflet.extras","rgdal","forecast","treemapify","dbscan","survival","googleVis","rmarkdown","flexdashboard","highcharter","devtools","maptools","mapview","treemap","networkD3","visNetwork","DiagrammeR","DT","ggcorrplot","Hmisc","anomalize", "fpp2", "h2o", "sweep", "timetk", "xgboost", "prophet", "survminer","ggwordcloud", "ggsn", "formattable", "IMD", "car", "RSelenium", "netstat"))```
+```install.packages(c("ggplot2","tidyverse","knitr","ggthemes","scales","ggmap","plotly","ggfortify","leaflet","leaflet.extras","rgdal","forecast","treemapify","dbscan","survival","googleVis","rmarkdown","flexdashboard","highcharter","devtools","maptools","mapview","treemap","networkD3","visNetwork","DiagrammeR","DT","ggcorrplot","Hmisc","anomalize", "fpp2", "h2o", "sweep", "timetk", "xgboost", "prophet", "survminer","ggwordcloud", "ggsn", "formattable", "IMD", "car", "RSelenium", "netstat", "fuzzyjoin", "this.path"))```
 
 This will take a while.
 

@@ -188,17 +188,23 @@ To OCR PDFs example: ```ocrmypdf -l eng input.pdf output.pdf```
 
 ```brew install ocrmypdf```
 
-###
+### LaTeX diff
 
 To show diffs in LaTeX:
 
 ```brew install latexdiff```
 
-###
+### Rename
 
-For flexible tools to rename file in BASH:
+For flexible tools to rename file in bash:
 
 ```brew install rename```
+
+### Parallel
+
+To use muliple cores in bash:
+
+```brew install parallel```
 
 ### XQuartz
 

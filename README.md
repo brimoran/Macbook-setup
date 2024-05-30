@@ -225,6 +225,12 @@ To use git with large files (see https://git-lfs.github.com/)
 
 ```brew install git-lfs```
 
+### Gdal
+
+For some geographic work in R.
+
+```brew install gdal```
+
 ## R and R Studio
 
 Download and install R:
@@ -237,7 +243,7 @@ Enter R via the terminal as superuser:
 
 Let's install the packages we need in one command:
 
-```install.packages(c("ggplot2","tidyverse","knitr","ggthemes","scales","ggmap","plotly","ggfortify","leaflet","leaflet.extras","rgdal","forecast","treemapify","dbscan","survival","googleVis","rmarkdown","flexdashboard","highcharter","devtools","maptools","mapview","treemap","networkD3","visNetwork","DiagrammeR","DT","ggcorrplot","Hmisc","anomalize", "fpp2", "h2o", "sweep", "timetk", "xgboost", "prophet", "survminer","ggwordcloud", "ggsn", "formattable", "IMD", "car", "RSelenium", "netstat", "fuzzyjoin", "this.path"))```
+```install.packages(c("ggplot2","tidyverse","knitr","ggthemes","scales","ggmap","plotly","ggfortify","leaflet","leaflet.extras","rgdal","forecast","treemapify","dbscan","survival","googleVis","rmarkdown","flexdashboard","highcharter","devtools","maptools","mapview","treemap","networkD3","visNetwork","DiagrammeR","DT","ggcorrplot","Hmisc","anomalize", "fpp2", "h2o", "sweep", "timetk", "xgboost", "prophet", "survminer","ggwordcloud", "ggsn", "formattable", "IMD", "car", "RSelenium", "netstat", "fuzzyjoin", "this.path", "))```
 
 This will take a while.
 
@@ -247,14 +253,27 @@ After it complete to enable mapshot to work:
 
 ```q()``` to exit R
 
+Then rgdal:
+
+```install.packages("rgdal", type="source")```
+
 Download and install R Studio:
 
 https://rstudio.com/products/rstudio/download/
 
-### Google API key for ggmap
+~~### Google API key for ggmap~~
 
-```register_google(key = "[your key]", write = TRUE)```
+~~```register_google(key = "[your key]", write = TRUE)```~~
 
+### Stadia Maps API key for ggmap
+
+Set Stadia Maps API key permanently:
+
+```register_stadiamaps(key = "YOUR-API-KEY", write = TRUE)```
+
+See https://search.r-project.org/CRAN/refmans/ggmap/html/register_stadiamaps.html
+
+###
 
 ## Python 3 ~~packages~~
 

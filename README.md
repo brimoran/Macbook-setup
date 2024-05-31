@@ -1,11 +1,11 @@
 # Macbook-setup
 Setting up a new Macbook
 
-MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)
+MacBook Pro (14-inch, 2021)
 
-2.4 GHz Intel Core i5
+Apple M1 Pro
 
-16 GB 2133 MHz LPDDR3
+16 GB RAM
 
 500 GB
 
